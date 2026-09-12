@@ -1,0 +1,17 @@
+.hero-content {
+    position: relative;
+    border-radius: 1.5rem;
+}
+
+.hero-content::before {
+    content: '';
+    position: absolute;
+    inset: -1rem -3rem;
+    z-index: -1;
+    pointer-events: none;
+    background: rgba(2, 6, 23, 0.65);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-mask-image: radial-gradient(ellipse 65% 70% at center, black 30%, transparent 85%);
+    mask-image: radial-gradient(ellipse 65% 70% at center, black 30%, transparent 85%);
+}

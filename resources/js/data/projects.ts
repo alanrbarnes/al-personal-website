@@ -1,0 +1,64 @@
+export interface Project {
+  slug: string;
+  title: string;
+  shortDescription: string;
+  problem: string;
+  role: string;
+  tech: string[];
+  outcome: string;
+  repoUrl?: string;
+  liveUrl?: string;
+}
+
+export const projects: Project[] = [
+  {
+    slug: 'custom-mold-services',
+    title: 'Custom Mold Services',
+    shortDescription: 'Photo-driven WordPress site showcasing a custom mold manufacturer\'s work and capabilities.',
+    problem: 'Custom Mold Services, a plastic injection and compression mold manufacturer, needed an updated, modern web presence to better connect with customers online, showcase completed work through photos and graphics, and communicate their machine shop\'s capabilities to potential clients.',
+    role: 'Designed and built the WordPress site solo, end to end — theme setup, content structure, and a photo/graphic-heavy layout built around showcasing completed manufacturing work.',
+    tech: ['WordPress', 'PHP', 'HTML', 'CSS'],
+    outcome: 'Gave the business an improved public web presence, with a visual portfolio of completed work that communicates their manufacturing capabilities to prospective customers.',
+    liveUrl: 'https://custommoldservices.com/'
+  },
+  {
+    slug: 'michelle-elliott-ministries',
+    title: 'Michelle Elliott Ministries',
+    shortDescription: 'WordPress site connecting a ministry and public speaker with her audience and congregation.',
+    problem: 'Michelle Elliott, a public inspirational speaker and founder of a newly formed church, needed a central place to connect with the public and her ministry\'s members — including event updates, contact information, and a way to watch services online.',
+    role: 'Built the WordPress site solo, including a streaming player for watching services and structured pages for events, contact, and general ministry information.',
+    tech: ['WordPress', 'PHP', 'HTML', 'CSS'],
+    outcome: 'Gave the ministry a single hub for members and the public to find event updates, watch streamed services, and get in contact.',
+    liveUrl: 'https://michelleelliottministries.org/'
+  },
+  {
+    slug: 'boma-law-immigration',
+    title: 'Boma Law Group — Immigration Attorney',
+    shortDescription: 'WordPress marketing site for an immigration law practice.',
+    problem: 'The immigration division of Boma Law Group — handling visa applications, green cards, asylum claims, and related services — needed an advertising platform to attract and inform potential clients navigating the US immigration process.',
+    role: 'Built the WordPress site solo as a client-acquisition platform, structuring content around the firm\'s specific immigration services.',
+    tech: ['WordPress', 'PHP', 'HTML', 'CSS'],
+    outcome: 'Gave the firm a dedicated advertising platform clearly communicating their immigration services and how to get in touch.',
+    liveUrl: 'https://immigrationattorney.bomalawgroup.com/'
+  },
+  {
+    slug: 'boma-law-estate-planning',
+    title: 'Boma Law Group — Estate Planning',
+    shortDescription: 'Hand-coded HTML/CSS marketing site for an estate planning law practice.',
+    problem: 'The estate planning division of Boma Law Group — handling trusts, wills, power of attorney, and guardianship services — needed a marketing site to attract clients and clearly convey their services.',
+    role: 'Designed and hand-coded the site solo using HTML and CSS, without a CMS or page builder.',
+    tech: ['HTML', 'CSS'],
+    outcome: 'Gave the firm a dedicated marketing presence for estate planning services, with clear service descriptions and a way for prospective clients to make contact.',
+    liveUrl: 'https://estateplanning.bomalawgroup.com/'
+  },
+  {
+    slug: 'talent-finder',
+    title: 'Talent Finder',
+    shortDescription: 'Custom-coded WordPress theme and plugin for searching a talent roster.',
+    problem: 'A talent producer needed a way for the public to search and browse the talent they represented.',
+    role: 'Built the entire WordPress theme and its plugins from scratch — including custom search and pagination functionality for browsing talent — rather than relying on off-the-shelf themes or plugins.',
+    tech: ['WordPress', 'PHP', 'MySQL', 'JavaScript', 'CSS'],
+    outcome: 'Demonstrates custom WordPress development beyond typical site-builder work. The original client project has been dormant for about a year, but the site is kept live as a working demonstration of custom theme and plugin development.',
+    liveUrl: 'https://talentfinder.barneswebservices.com/'
+  }
+];

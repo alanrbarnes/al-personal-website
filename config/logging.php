@@ -131,6 +131,11 @@ return [
             'handler' => NullHandler::class,
         ],
 
+        'email' => [
+            'driver' => 'custom',
+            'via' => App\Logging\PerEmailLogger::class,
+        ],
+
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
         ],
