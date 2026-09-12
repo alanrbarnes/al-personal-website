@@ -1,0 +1,1 @@
+import{n as e,t}from"./compiler-runtime-BOc5URQk.js";var n=t(),r=e();function i(){let e=(0,n.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,r.jsx)(`div`,{}),e[0]=t):t=e[0],t}i.layout={title:`Create an account`,description:`Enter your details below to create your account`};export{i as default};
