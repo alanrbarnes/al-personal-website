@@ -4,6 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta name="description" content="Alan Barnes — Full-Stack Software Engineer specializing in .NET Core, C#, Angular, and React. Portfolio, resume, and freelance web development services.">
+
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Alan Barnes">
+        <meta property="og:title" content="Alan Barnes — Full-Stack Software Engineer">
+        <meta property="og:description" content="Full-stack engineer specializing in .NET Core, C#, Angular, and React — from 20 years in manufacturing to building production web applications and APIs.">
+        <meta property="og:image" content="{{ asset('images/personal_pic_st_louis_1200-630_1.jpg') }}">
+        <meta property="og:url" content="{{ url()->current() }}">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Alan Barnes — Full-Stack Software Engineer">
+        <meta name="twitter:description" content="Full-stack engineer specializing in .NET Core, C#, Angular, and React.">
+        <meta name="twitter:image" content="{{ asset('images/personal_pic_st_louis_1200-630_1.jpg') }}">
+
         {{-- Inline script to detect system dark mode preference and apply it immediately --}}
         <script>
             (function() {

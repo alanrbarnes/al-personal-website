@@ -45,6 +45,11 @@ export default function About() {
               <p className="leading-relaxed mb-6">
                 In manufacturing, inefficiency is expensive. You learn quickly that every wasted movement compounds. I started noticing bottlenecks in our administrative and production workflows—processes that were manual, error-prone, and slow. The engineer in me couldn't leave them alone.
               </p>
+              <img
+                src="/images/personal_pic_st_louis_1200-630_1.jpg"
+                alt="Alan Barnes standing in front of the Gateway Arch in St. Louis"
+                className="w-full rounded-xl border border-border shadow-sm mb-6"
+              />
             </motion.div>
   
             <motion.div variants={itemVariants} className="mb-12">
